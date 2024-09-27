@@ -7,18 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PersonalInformationComponent implements OnInit {
   myData: string[][] = [
-    ['Name', 'Ramprasath K'],
-    ['DOB', '30/11/1999'],
-    ['Work Exp', '2+ Years'],
-    ['Education', 'B.Sc-Computer Science (2020)'],
-    ['Interests', 'Cricket'],
+    ['Name', 'Aravindhan B'],
+    ['DOB', '06/11/2000'],
+    ['Work Exp', '2 Years'],
+    ['Education', 'B.E-Mechatronics Engineering (2022)'],
+    ['Interests', 'Football'],
   ];
 
   aboutMe: string[] = [
-    'Hi, I am a Software Engineer Experienced Angular Developer with 2+ years in designing and implementing dynamic web applications',
-    'Beyond Angular, I possess strong skills in HTML5, CSS3, and JavaScript/TypeScript, which allow me to create seamless and interactive user interfaces. I am adept at using modern frontend frameworks and libraries to enhance functionality and performance.',
-    'Strong problem-solving skills and commitment to staying current with front-end development trends',
-    ' My work often involves integrating RESTful APIs and third-party services, ensuring efficient data exchange and seamless communication between the frontend and backend',
+    'Hi, I’m Aravindhan, a dedicated and enthusiastic Java Developer with a strong foundation in software engineering and application development',
+    'With 2 years of experience, I specialize in building high-performance, scalable, and secure applications using Java and related technologies.',
+    'Beyond coding, I am passionate about continuous learning and staying up-to-date with the latest trends and advancements in the tech world',
+    ' I’m always looking for new opportunities to solve challenging problems and contribute to impactful projects.',
   ];
 
   constructor() { }

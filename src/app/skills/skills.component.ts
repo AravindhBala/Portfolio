@@ -9,39 +9,39 @@ import * as AOS from 'aos';
 export class SkillsComponent implements OnInit {
   skills: Skill[] = [
     {
-      name: 'Angular, Angular Material',
-      level: 'Expert',
-      rating: 85,
-    },
-    {
-      name: 'Ionic Framework',
-      level: 'Intermidiate',
-      rating: 70,
-    },
-    {
-      name: 'HTML, CSS, JS',
+      name: 'Java',
       level: 'Expert',
       rating: 90,
     },
     {
-      name: 'Bootstrap',
+      name: 'mySQL',
+      level: 'Expert',
+      rating: 90,
+    },
+    {
+      name: 'HTML, CSS, JS',
+      level: 'Expert',
+      rating: 80,
+    },
+    {
+      name: 'Spring MVC',
       level: 'Expert',
       rating: 85,
     },
     {
       name: 'JQuery',
       level: 'Expert',
-      rating: 90,
+      rating: 80,
     },
     {
-      name: 'NodeJS , ExpressJS',
+      name: 'Enovia',
       level: 'Intermidiate',
-      rating: 60,
+      rating: 70,
     },
     {
-      name: 'MongoDB , MySQL',
+      name: 'SpringBoot',
       level: 'Intermidiate',
-      rating: 50,
+      rating: 75,
     },
   ];
   constructor() { }

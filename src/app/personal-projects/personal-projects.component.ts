@@ -11,34 +11,20 @@ export class PersonalProjectsComponent implements OnInit {
   constructor() { }
   projects: Project[] = [
     {
-      title: 'Library Management Web Application (01/2020 - 06/2020)',
-      technologies: 'Html, Css, JavaScript',
+      title: 'Fruit grading using neural network based image processing (12/2021)',
+      technologies: 'ML algorithms,neural network',
       description: [
-        'Created a Web Application For Library Management in which if choose a Book in the Application we dont need to go and search for the book in the Library . It saves time a '
+        'It is College project used to grade a fruits using neural networks  '
       ],
     },
     {
-      title: 'Weather Application(11/2022 - 12/2022)',
-      technologies: 'Html, Css, JavaScript,NodeJS,ExpressJS',
+      title: 'Machine learning based air pollution monitoring system and forecasting (06/2022)',
+      technologies: 'ML algorithms',
       description: [
-        'A weather application built with Node.js leverages Express for server-side functionality and integrates with a weather API to fetch real-time weather data.',
+        'It is a college project used to moniter air pollution and forcasting efficiently'
       ],
     },
-    {
-      title: 'E-commerce Website Using Angular(06-2023 - 08-2023)',
-      technologies: 'Angular,TypeScript,Angular Material,Bootstrap,Html,Css',
-      description: [
-        'Our Angular-based e-commerce website offers a seamless shopping experience with features like advanced product search, secure user authentication, a responsive design, shopping cart, wishlist, product reviews. The platform also includes an intuitive admin panel for efficient order and product management'
-      ],
-    },
-    {
-      title: 'Chat Application Using NodeJS (06-2024 - 07-2024)',
-      technologies: 'Angular,TypeScript,Angular Material,Bootstrap,NodeJs,ExpressJs,Socket.Io',
-      description: [
-        'We Using Node.js-based chat application enables real-time messaging with a responsive and user-friendly interface. ',
-        ' The application leverages WebSocket for seamless communication and ensures a fast, reliable, and engaging chat experience.'
-      ],
-    },
+    
   ];
   ngOnInit(): void {
   }

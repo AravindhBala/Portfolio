@@ -11,11 +11,11 @@ export class WorkExperienceComponent implements OnInit {
     {
       role: 'Software Developer',
       company: 'Ariztid Technologies Pvt Ltd',
-      duration: 'Feb 2022 - Present',
+      duration: 'March 2022 - Present',
       description: [
         'Working in a Web Applications and Mobile Applications End to End Project.',
-        'Working in Angular Framework With TypeScript',
-        'Lead the Front End Team with my Full Potential and Dedication.'
+        'Working in Spring MVC Framework With mySQL',
+        'working with back End Team with my Full Potential and Dedication.'
       ],
     },
   ];

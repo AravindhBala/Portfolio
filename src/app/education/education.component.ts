@@ -9,22 +9,22 @@ import { Education } from '../models/models';
 export class EducationComponent implements OnInit {
   educationList: Education[] = [
     {
-      institute: 'SRI RAMAKRISHNA MISSION VIDHYALAYA COLLEGE OF ARTS AND SCIENCE - COIMBATORE',
-      course: 'B.Sc - Computer Science',
-      duration: '2017-2020',
+      institute: 'KUMARAGURU COLLEGE OF ENGINEERING AND TECHNOLOGY - COIMBATORE',
+      course: 'B.E - Mechatronics Engineering',
+      duration: '2018-2022',
       score: '75%',
     },
     {
-      institute: 'GHSS - KARAMADAI',
+      institute: 'VEVEAHAM BOYS HR.SEC.SCHOOL - DHARAPURAM',
       course: 'Higher Secondary Certificate',
-      duration: '2016-2017',
-      score: '80%',
+      duration: '2016-2018',
+      score: '85%',
     },
     {
-      institute: 'GHSS - KARAMADAI',
+      institute: 'VEVEAHAM BOYS HR.SEC.SCHOOL - DHARAPURAM',
       course: 'Secondary School Leaving Certificate',
-      duration: '2014-2015',
-      score: '90%',
+      duration: '2015-2016',
+      score: '92%',
     },
   ];
 

@@ -9,39 +9,31 @@ import { Project } from '../models/models';
 export class ProjectsComponent implements OnInit {
   projects: Project[] = [
     {
-      title: 'ARIES APPLICATIONS(AIMS,AOMS,AEX) MAINTENANCE & SUPPORT (05/2022 - Present)',
-      technologies: 'Html, Css, JavaScript, JQuery, Bootstrap',
+      title: 'ARIES APPLICATIONS(AIMS,A2F) MAINTENANCE & SUPPORT (06/2022 - Present)',
+      technologies: 'Java,Spring MVC,Html, Css, JavaScript, JQuery, Bootstrap',
       description: [
-        'Support of all UI modifications made to Aries applications.',
+        'Support of all Service modifications made to Aries applications.',
         'Maintain all Aries projects and client responsibilities in accordance with the specifications',
       ],
     },
     {
-      title: 'ARIES SURVEY PROJECT (06/2022 - 10/2022)',
-      technologies: 'Html, Css, JavaScript, JQuery, Bootstrap',
+      title: 'FARADAY FUTURE  (06/2022 - 06/2024)',
+      technologies: 'Enovia, CATIA, MQL, TCL, JSP,JPO And Triggers',
       description: [
-        'Worked in User Interface (UI)',
-        'It is Bassed On Book Purchase Survey',
+        ' It is a product life Cycle management Application',
+        'Provided technical support, troubleshooting, and maintenance for ENOVIA applications, including performance optimization and software upgrades.',
       ],
     },
     {
-      title: 'GET 2 COLLEGE MOBILE APPLICATION (01/2023 - 04/2023)',
-      technologies: 'Angular,Ionic,TypeScript,Angular Material,Bootstrap,Html,Css',
+      title: ' ARIES EXTENSION MOBILE AND WEB APPLICATION (06/2023 - 012/2023)',
+      technologies: 'Java,Spring MVC,Html, Css, JavaScript, JQuery, Bootstrap',
       description: [
-        'Worked on UI design And UI development',
-        'We Developed In Both Android And Ios Using Ionic Framework',
-        'We Using The 360 degree Video'
+        'Designing and implementing web applications using Spring MVC framework, adhering to best practices and coding standards',
+        ' Designing and implementing database schemas, writing SQL queries, and integrating with Spring Data or other ORM frameworks for data access'
+        
       ],
     },
-    {
-      title: 'AEX MOBILE APPLICATION (05/2023 - 12/2023)',
-      technologies: 'Angular,Ionic,TypeScript,Angular Material,Bootstrap,Html,Css',
-      description: [
-        'Worked in Full User Interface in Mobile',
-        'Used Camera , Location , File , File Transfer and Android Permissions Plugins. ',
-        'This App Capture The Users Daily Activities'
-      ],
-    },
+    
   ];
   constructor() { }
 
